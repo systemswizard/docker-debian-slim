@@ -10,7 +10,7 @@ LABEL org.opencontainers.image.vendor="systemswizard"
 RUN  echo "deb http://deb.debian.org/debian bookworm contrib non-free non-free-firmware" >> /etc/apt/sources.list
 RUN  echo "deb http://deb.debian.org/debian bookworm-backports contrib non-free non-free-firmware" >> /etc/apt/sources.list
 RUN  apt-get update && apt-get -y upgrade
-RUN  apt-get -y install --no-install-recommends wget locales procps
+RUN  apt-get -y install --no-install-recommends locales procps
 RUN  touch /etc/locale.gen
 RUN  echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
 RUN  locale-gen
