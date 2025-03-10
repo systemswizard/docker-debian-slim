@@ -2,7 +2,7 @@ FROM docker.io/library/debian:bookworm-slim
 LABEL org.opencontainers.image.authors="github.com/systemswizard"
 LABEL org.opencontainers.image.description="debian bookworm slim docker image"
 LABEL org.opencontainers.image.source="https://github.com/systemswizard/docker-debian-slim"
-LABEL org.opencontainers.image.url="https://github.com/systemswizard/docker-debian-slim"
+LABEL org.opencontainers.image.url="https://github.com/systemswizard/docker-gh-actions-runner/pkgs/container/debian-slim"
 LABEL org.opencontainers.image.documentation="https://github.com/systemswizard/docker-debian-slim"
 LABEL org.opencontainers.image.vendor="systemswizard"
 ENV DEBIAN_FRONTEND=noninteractive
