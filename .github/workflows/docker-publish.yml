@@ -15,7 +15,7 @@ env:
 
 jobs:
   build:
-    runs-on: debian-latest
+    runs-on: Ubuntu
     permissions:
       contents: read
       packages: write
